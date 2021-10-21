@@ -2,6 +2,7 @@
 const typed = new Typed('.typed',{
     strings:[
         '<i class="palabra">  SOLUCION?</i>',
+		'<i class="palabra">  SOLUCION?</i>',
         '<i class="palabra">  AYUDA?</i>',
         '<i class="palabra">  BUENA NOTA?</i>'
     ],
