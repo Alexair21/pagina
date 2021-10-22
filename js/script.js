@@ -12,3 +12,13 @@ window.onscroll = function(){
     }
 
 }
+document.getElementById("bt_menu").addEventListener("click", mostrar_menu);
+menu=document.getElementById("header");
+nav=document.getElementById("nav");
+body=document.getElementById("cont__portada");
+
+function mostrar_menu(){
+    menu.classList.toggle('move');
+    body.classList.toggle('move');
+    nav.classList.toggle('move_nav');
+}
