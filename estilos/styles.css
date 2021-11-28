@@ -12,6 +12,8 @@
   transition: all 300ms;
 }
 
+
+
 header {
   width: 100%;
   height: 100px;
@@ -19,11 +21,13 @@ header {
   position: fixed; /*encima de todo*/
   top: 0;
   right: 0;
-  z-index: 100;
   transition: all 300ms;
   position: relative;
   z-index: 99;
+  background: b;
 }
+
+
 .move {
   right: 180px;
 }
@@ -46,7 +50,7 @@ header .logo {
 }
 
 .logo img {
-  width: 200px;
+  width: 300px;
 }
 
 .cont_nav {
@@ -91,6 +95,20 @@ nav ul li {
   border-radius: 50%;
   transition: background 300ms;
   display: none;
+}
+
+.btn__osc{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #23b8dc;
+  transition: background 300ms;
 }
 
 .d:hover {
@@ -258,9 +276,13 @@ nav ul li {
   .cont_img {
     display: none;
   }
-  .cover input[type="button"] {
-    align-items: center;
+  .logo img {
+    width: 250px;
   }
+}
+
+.osc{
+ background: #23b8dc;
 }
 
 /**********************************PARTICULAS****************************************/
@@ -269,4 +291,9 @@ nav ul li {
   width: 100%;
   position: fixed;
   z-index: 1;
+}
+
+.a{
+  border: solid 1px black;
+  height: 500px;
 }
